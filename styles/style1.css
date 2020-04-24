@@ -1,0 +1,92 @@
+
+/*Definimos el background para el body*/
+body{
+   
+    background-image: url("https://i2.wp.com/www.paradavisual.com/wp-content/uploads/2019/11/Hero_BogotaPartyCapitol_Heroshutterstock_1019031940.jpg?fit=2000%2C1300&ssl=1");
+}
+
+/*div titulo*/
+
+div.tit {
+  text-align: center;
+  padding: 1px 16px;
+  height: 100px;
+  background-color: rgb(46, 7, 7);
+  opacity: 0.8;
+}
+
+/*Estilo para el titulo de en la página*/
+htitle{
+    color:rgba(255, 255, 0, 0.884);
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px red;
+    font-size: 80px;
+    font-style: italic;
+    
+    
+    }
+/*
+labeltitle
+
+
+*/
+
+/*Barra de navegación responsive*/
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #861414;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   
+  ul.sidenav li a.active {
+    background-color: rgb(87, 11, 11);
+    color: white;
+  }
+  
+  ul.sidenav li a:hover:not(.active) {
+    background-color: rgb(109, 82, 82);
+    color: white;
+  }
+
+  div.content {
+    margin-left: 50%;
+    padding: 1px 16px;
+    height: auto;
+    background-color: white;
+    opacity: 0.3;
+  }
+  
+  @media screen and (max-width: 1900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+    
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+  }
