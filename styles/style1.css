@@ -10,7 +10,7 @@ body{
 div.tit {
   text-align: center;
   padding: 1px 16px;
-  height: 100px;
+  height: 80px;
   background-color: rgb(46, 7, 7);
   opacity: 0.8;
 }
@@ -20,7 +20,7 @@ htitle{
     color:rgba(255, 255, 0, 0.884);
     letter-spacing: 5px;
     text-shadow: 2px 2px 5px red;
-    font-size: 80px;
+    font-size: 60px;
     font-style: italic;
     
     
