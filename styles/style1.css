@@ -5,40 +5,40 @@ body{
     background-image: url("https://i2.wp.com/www.paradavisual.com/wp-content/uploads/2019/11/Hero_BogotaPartyCapitol_Heroshutterstock_1019031940.jpg?fit=2000%2C1300&ssl=1");
 }
 
-/*div titulo*/
+/*div titulo
+border-radios para darle curva en esquinas del div*/
 
 div.tit {
   text-align: center;
   padding: 1px 16px;
   height: 80px;
-  background-color: rgb(46, 7, 7);
-  opacity: 0.8;
+  background-color: rgba(97, 7, 7, 0.95);
+  /*opacity: 0.8;*/
+  border-radius: 30%;
+  
 }
 
 /*Estilo para el titulo de en la página*/
+/*Usame el formato rgba para definir opacidad también*/
 htitle{
-    color:rgba(255, 255, 0, 0.884);
+    color:rgba(196, 139, 16, 0.897);
     letter-spacing: 5px;
-    text-shadow: 2px 2px 5px red;
-    font-size: 60px;
+    text-shadow: -10px 8px 5px rgb(5, 2, 2);
+    font-size: 50px;
     font-style: italic;
-    
-    
+       
     }
-/*
-labeltitle
 
-
-*/
 
 /*Barra de navegación responsive*/
 
 ul.sidenav {
     list-style-type: none;
     margin: 0;
+    margin-top: 10px;
     padding: 0;
     width: 25%;
-    background-color: #861414;
+    background-color:rgba(2, 0, 0, 0.75);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -46,27 +46,30 @@ ul.sidenav {
   
   ul.sidenav li a {
     display: block;
-    color: #000;
+    color: rgb(255, 255, 255);
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 20px;
+        
   }
    
   ul.sidenav li a.active {
-    background-color: rgb(87, 11, 11);
+    background-color: rgb(54, 79, 116);
     color: white;
   }
   
   ul.sidenav li a:hover:not(.active) {
-    background-color: rgb(109, 82, 82);
+    background-color: rgb(24, 107, 146);
     color: white;
   }
 
   div.content {
+    margin-top: 10px;
     margin-left: 50%;
     padding: 1px 16px;
     height: auto;
-    background-color: white;
-    opacity: 0.3;
+    background-color:rgba(255, 255, 255, 0.555);
+    /*opacity: 0.3;*/
   }
   
   @media screen and (max-width: 1900px) {
@@ -90,3 +93,48 @@ ul.sidenav {
       float: none;
     }
   }
+
+
+
+  /*prrrrrrrrr*/
+
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
+
+
+div.imagenes {
+  text-align: right;
+  
+}
+
+h2{
+  font-size: 2vw;
+}
