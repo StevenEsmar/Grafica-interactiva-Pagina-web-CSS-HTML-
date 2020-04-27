@@ -2,7 +2,7 @@
 /*Definimos el background para el body*/
 body{
    
-    background-image: url("https://i2.wp.com/www.paradavisual.com/wp-content/uploads/2019/11/Hero_BogotaPartyCapitol_Heroshutterstock_1019031940.jpg?fit=2000%2C1300&ssl=1");
+    background-image: url("http://goldenwishes.net/wp-content/uploads/2015/12/bogota-noche-1350x1013.jpg");
 }
 
 /*div titulo
@@ -11,11 +11,11 @@ border-radios para darle curva en esquinas del div*/
 div.tit {
   text-align: center;
   padding: 1px 16px;
-  height: 80px;
-  background-color: rgba(177, 11, 11, 0.87);
-  border-radius: 30%;
+  height: 85px;
+  background-color: rgba(117, 103, 103, 0.705);
+  border-radius: 80%;
   
-  border: 12px outset rgba(66, 67, 70,0.88);
+  border: 25px groove rgba(66, 67, 70, 0.836);
   
   
 }
@@ -23,11 +23,11 @@ div.tit {
 /*Estilo para el titulo de en la página*/
 /*Usame el formato rgba para definir opacidad también*/
 htitle{
-    color:rgba(255, 238, 0, 0.747);
+    color:rgba(0, 0, 0, 0.747);
     letter-spacing: 2px;
-    text-shadow: -10px 8px 8px rgb(5, 2, 2);
-    font-size: 52px;
-    font-family: 'Sofia';
+    text-shadow: -10px 6px 16px rgb(5, 2, 2);
+    font-size: 72px;
+    font-family: 'Mate SC';
 
        
     }
@@ -35,37 +35,44 @@ htitle{
 
 /*Barra de navegación responsive*/
 
+
+
 ul.sidenav {
     list-style-type: none;
+    
     margin: 0;
     margin-top: 10px;
     padding: 0;
     width: 25%;
-    background-color:rgba(0, 0, 0, 0.849);
+    background-color:rgb(44, 51, 121);
     position: fixed;
     height: 100%;
     overflow: auto;
+    border: 15px outset rgba(33, 47, 87, 0.836);
+    
     
   }
   
   ul.sidenav li a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(238, 238, 238);
     padding: 8px 16px;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Milonga';
+    font-family: 'Mali';
         
   }
    
   ul.sidenav li a.active {
-    background-color: rgba(117, 1, 1, 0.699);
+    background-color: rgba(15, 9, 9, 0.699);
     color: white;
+    border-radius: 70%;
   }
   
   ul.sidenav li a:hover:not(.active) {
-    background-color: rgba(129, 19, 19, 0.411);
+    background-color: rgba(187, 177, 177, 0.411);
     color: white;
+    border-radius: 50%;
   }
 
 /*Estilo para definir el diseño del fondo, donde irá el contenido de nuestra página*/
@@ -75,7 +82,7 @@ ul.sidenav {
     margin-left: 50%;
     padding: 1px 16px;
     height: auto;
-    background-color:rgba(0, 0, 0, 0.644);
+    background-color:rgba(173, 208, 236, 0.267);
     
   }
 
@@ -98,6 +105,7 @@ ul.sidenav {
     ul.sidenav li a {
       text-align: center;
       float: none;
+      
     }
   }
 
@@ -114,24 +122,26 @@ img{
   
   margin-top: 20px;
   margin-left: 10px;
-  border: 14px outset rgba(189, 14, 14, 0.85);
+  border: 14px groove rgba(240, 240, 240, 0.85);
   box-shadow: 0 0 25px;
-  border-radius: 15%;
+  border-radius: 35%;
+  
 }
 
 /*Se establece diferentes estilos para los textos
 /*vw permite tener el texto adaptable al tamaño de la ventana*/
 h3{
   font-size: 2.5vw;
-  font-family: 'Milonga';
-  color: rgb(221, 220, 220);
-  text-shadow: rgb(59, 0, 0) 1px 2px 3px;
+  font-family: 'Mali';
+  
+  color: rgb(0, 0, 0);
+  text-shadow: rgba(27, 31, 30, 0.596) 1px 2px 2px;
  }
 
  h4{
   font-size: 2.5vw;
   font-family: 'Milonga';
-  color: rgb(221, 220, 220);
+  color: rgb(34, 18, 18);
   text-shadow: rgb(59, 0, 0) 1px 2px 3px;
   text-align: center;
  }
@@ -139,7 +149,7 @@ h3{
  h6{
   font-size: 2.1vw;
   font-family: 'Milonga';
-  color: rgb(221, 220, 220);
+  color: rgb(11, 8, 32);
   text-shadow: rgb(59, 0, 0) 1px 2px 3px;
   text-align: center;
  }
@@ -148,8 +158,8 @@ h5{
   font-family: 'Milonga';  
   font-size: 2.6vw;
   text-align: center;
-  color: rgba(192, 139, 24, 0.849);
-  text-shadow: rgb(112, 109, 93) 12px 10px 10px;
+  color: rgba(15, 25, 59, 0.973);
+  text-shadow: rgb(255, 255, 255) 12px 10px 10px;
 }
 
 h2{
